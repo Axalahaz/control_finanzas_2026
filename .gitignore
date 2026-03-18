@@ -1,0 +1,67 @@
+documentacion/
+
+# =========================
+# BACKEND
+# =========================
+backend/.metadata/
+.metadata/
+
+target/
+build/
+*.class
+
+# Config sensibles
+backend/application-local.*
+backend/application-dev.*
+
+# =========================
+# FRONTEND
+# =========================
+frontend/node_modules/
+frontend/.next/
+frontend/dist/
+
+# env frontend
+frontend/.env*
+.env
+.env.*
+
+# =========================
+# DB LOCAL
+# =========================
+*.db
+*.mv.db
+*.trace.db
+/data/
+
+# =========================
+# LOGS
+# =========================
+*.log
+logs/
+
+# =========================
+# TEMP
+# =========================
+tmp/
+temp/
+
+# =========================
+# IDEs
+# =========================
+.idea/
+.vscode/
+.project
+.classpath
+.settings/
+
+# =========================
+# COVERAGE
+# =========================
+coverage/
+
+# =========================
+# SISTEMA
+# =========================
+.DS_Store
+Thumbs.db
